@@ -1,6 +1,6 @@
-# Além do HTML
+# Conexões
 
-## Referênciar de arquivos
+## Referênciar arquivos
 
 CSS:
 ```html
