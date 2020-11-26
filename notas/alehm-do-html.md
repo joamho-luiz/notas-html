@@ -51,5 +51,5 @@ Links em nova aba:
 
 Frame (html dentro do html):  
 ```html
-<iframe src="google-glass.html" name="janela" id="frame-spec" scrolling="no"></iframe>
+<iframe src="google-glass.html" scrolling="no"></iframe>
 ```
