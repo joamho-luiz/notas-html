@@ -31,3 +31,22 @@
     <area shape="poly" coords="28, 145, 83, 216, 83, 251, 28, 169" href="google-glass.html#sensores" target="janela"  />
 </map>
 ```
+
+# Multimídia
+
+## Áudio
+
+```html
+<audio id="musica" controls="controls">
+    <source src="_media/bibio.mp3" type="audio/mpeg" />
+    Desculpe, mas não foi possível carregar a música.
+</audio>
+```
+
+## Vídeo
+
+```html
+<video id="filme" controls poster="_imagens/video-mini03.jpg">
+    <source src="_media/getting-started.mp4" type="video/mp4" />
+</video>
+```
