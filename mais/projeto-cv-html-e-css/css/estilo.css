@@ -1,0 +1,281 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+/* BODY - INTERFACE - PARAGRAFOS */
+
+body{
+    background-color: white;
+    color:  rgba(0, 0, 0, 1);
+    font-family: Arial,  sans-serif;
+}
+
+div#interface {
+    width: 80%; /*Largura de estilo relativo*/
+    margin: -20px auto 0px auto; /*centralizando pagina*/
+    box-shadow: 0px 0px  20px rgba(0, 0, 0, .5); /*sombra para pagina*/
+    padding: 10px; /* quatro vallores iguais*/
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CABEÇALHO */
+
+header#cabeccalho {
+    padding-bottom: 12px;
+}
+
+header#cabeccalho img#icone {
+    position: absolute;
+    top: 75px;
+    right: 7%;
+}
+
+header#cabeccalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+    margin-bottom: 0px;
+}
+
+header#cabeccalho h1 {
+    font-family: 'FonteLogo';
+    font-size: 30pt; /* pt = pontos */
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 4px;
+    margin-top: 17px;
+}
+
+header#cabeccalho h2 {
+    font-family: 'Raleway', sans-serif;;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+    padding-bottom: 100px; /*800px*/
+}
+
+/* IMAGEM COM LEGENDA */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    background: white;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* MENU */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -12px;
+    right: 10%; /* 10% */
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none; /*Sem sublinhado*/
+    transition: color 1s;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    /*text-decoration: underline;*/
+}
+
+/* CORPO - LATERAL - RODAPÉ */
+
+section#corpo {
+    display: block;
+    width:55%;
+    float: left;
+    padding: 2% 2% 2% 0px;
+    margin: 0px;
+    border-right: 1px solid #606060;
+}
+
+aside#lateral {
+    display: block;
+    width: 40%;
+    float: right;
+    margin: 10px 0px 0px 0px;
+    background-color: #dddddd;
+    padding: 1%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5)
+}
+
+footer#rodapeh {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodapeh p {
+    text-align: center;
+}
+
+/* ARTICLE */
+
+article#noticia-principal h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecca h1 {
+    font-family: 'FontLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecca h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecca h3 {
+    font-size: 12px;
+    color: #606060;
+}
+
+.direita {
+    text-align: right;
+}
+
+/* ASIDE */
+
+aside#lateral h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/* TABELA */
+
+table#tabla {
+    border: 1px solid #606060;
+    border-spacing: 0px; /* espaços entre celulas */
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabla td {
+    border:  1px solid #606060;
+    padding: 10px;
+}
+
+table#tabla td.ce {
+    color: white;
+    background-color:  #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabla td.cd {
+    background-color: #cecece;
+}
+
+table#tabla caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabla caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

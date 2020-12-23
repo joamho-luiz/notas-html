@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Multimídia - Google Glass</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <script src="_javascript/funccomhes.js"></script>
+    </head>
+
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+
+    <body>
+        <div id="interface">
+            <header id="cabeccalho">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2>A revolução do Google está chegando</h2>
+                </hgroup>
+
+                <img id="icone" src="imagens/multimidia.png" />
+
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+
+                    <ul>
+                        <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecca">
+                        <hgroup>
+                            <h3>Glass > Multimídia</h3>
+                            <h1>Sons e Vídeos</h1>
+                            <h2>por Gustavo Guanabara</h2>
+                            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                        </hgroup>
+                    </header>
+
+                    <div id="tv-radio">
+                        <audio id="musica" controls="controls">
+                            <source src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+                            Desculpe, mas não foi possivel carregar a música.
+                        </audio>
+
+                        <video id="filme" controls poster="imagens/video-mini03.jpg">
+                            <source src="media/getting-started.mp4" type="video/mp4" />
+                            Desculpe, mas não foi posssivel carregar o vídeo.
+                        </video>
+                    </div>
+                </article>
+            </section>
+
+            <footer id="rodapeh">
+                <p>
+                    Copyright 2018 - by João Luiz <br />
+                    <a href="https://www.facebook.com/joaoluiz.delara" target="_blank">Facebook</a> |
+                    <a href="https://twitter.com/JoaoLuiz_dl" target="_blank">Twitter</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
