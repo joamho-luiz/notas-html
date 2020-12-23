@@ -23,7 +23,7 @@
 
 ## Estrutura da página
 
-<img src="../imagens/divisamho.gif">
+<img src="../mais/imagens/divisamho.gif">
 
 Também há a \<div>
 

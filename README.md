@@ -1,4 +1,4 @@
-[Básicos](notas/bahsicos.md "Clique para ver o arquivo.md")
+[Básicos](notas/bahsico.md "Clique para ver o arquivo.md")
 
 * Características da Linguagem
 
