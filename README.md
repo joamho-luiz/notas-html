@@ -1,5 +1,3 @@
-[projeto](mais/projeto-cv-html-e-css/index.html)
-
 [Básicos](notas/bahsico.md "Clique para ver o arquivo.md")
 
 * Características da Linguagem
@@ -13,7 +11,7 @@
    - Estrutura da página
    - Estrutura da tag
 
-[Conexões](notas/conexomhes.md "Clique para ver o arquivo.md")
+[Conexões](notas/conexomhes.md "Clique para ver o arquivo.md")  
 
 * Referênciar arquivos
 
@@ -31,7 +29,7 @@
 
    - Escrever códigos
 
-[Menus e Tabelas](notas/.md "Clique para ver o arquivo.md")
+[Menus e Tabelas](notas/menus-e-tabelas.md "Clique para ver o arquivo.md")
 
 * Menus
 
@@ -40,9 +38,9 @@
 
 * Tabelas
 
-[Formulários](notas/.md "Clique para ver o arquivo.md")
+[Formulários](notas/formulahrios.md "Clique para ver o arquivo.md")
 
-[Imagens e Multimídias](notas/.md "Clique para ver o arquivo.md")
+[Imagens e Multimídias](notas/imagens-e-multimidias.md "Clique para ver o arquivo.md")
 
 * Imagens
 
