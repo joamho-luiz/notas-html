@@ -1,4 +1,4 @@
-[Básicos](notas/bahsico.md "Clique para ver o arquivo.md")
+[BÁSICO DA LINGUAGEM](notas/bahsico.md "Clique para ver o arquivo.md")
 
 * Características da Linguagem
 
@@ -11,7 +11,7 @@
    - Estrutura da página
    - Estrutura da tag
 
-[Conexões](notas/conexomhes.md "Clique para ver o arquivo.md")  
+[CONEXÕES](notas/conexomhes.md "Clique para ver o arquivo.md")  
 
 * Referênciar arquivos
 
@@ -21,7 +21,7 @@
 
 * Outros
 
-[Tags e Caracteres](notas/tags-e-caracteres.md "Clique para ver o arquivo.md")
+[TAGS E CARACTERES](notas/tags-e-caracteres.md "Clique para ver o arquivo.md")
 
 * Tags Especiais
 
@@ -29,7 +29,7 @@
 
    - Escrever códigos
 
-[Menus e Tabelas](notas/menus-e-tabelas.md "Clique para ver o arquivo.md")
+[MENUS E TABELAS](notas/menus-e-tabelas.md "Clique para ver o arquivo.md")
 
 * Menus
 
@@ -38,9 +38,11 @@
 
 * Tabelas
 
-[Formulários](notas/formulahrios.md "Clique para ver o arquivo.md")
+[FORMULÁRIOS](notas/formulahrios.md "Clique para ver o arquivo.md")
 
-[Imagens e Multimídias](notas/imagens-e-multimidias.md "Clique para ver o arquivo.md")
+<br/>  
+
+[IMAGENS E MULTIMÍDIAS](notas/imagens-e-multimidias.md "Clique para ver o arquivo.md")
 
 * Imagens
 
