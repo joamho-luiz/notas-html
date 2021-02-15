@@ -53,3 +53,8 @@ Frame (html dentro do html):
 ```html
 <iframe src="google-glass.html" scrolling="no"></iframe>
 ```
+
+## Observação
+
+**href** - (Referência de Hipertexto) faz referencia a outro documento sem se interferir no carregamento do atual.
+**src** - (Source) este implica que o documento referenciado deve ser carregado para dar continuidade ao carregamento do documento atual.
