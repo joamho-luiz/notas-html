@@ -7,6 +7,12 @@
 * tudo minusculo
 * `-` por &nbsp; ` `
 
+**Class, Id e Name**
+
+* Tudo em minusculo
+* Espaço apenas para separar classes. (`class="classe1 classe2 classe3"`)
+* nome-do-objeto__atributo--valor
+
 ## Arquitetura do projeto  
 
 \> css  
