@@ -6,6 +6,19 @@
 
 `<del>` deleted (riscado - ênfase)  
 
+`<mark>` Marked - destacar com fundo amarelo.
+`<small>` Smaller - diminui a fonte
+
+`<ins>` - Inserted - sublinhado
+
+`<sup>` sobrescrito  
+
+`<sub>` sobrescrito 
+
+<br/>
+
+`<pre>` pre-formatted - respeita a formatação (espaços)
+
 <br/>
 
 `&nbsp;` non breaking space (espaço)  
@@ -16,11 +29,14 @@
 
 `&shy;`	soft hyphen (quebra com - )  
 
-`<sup>` sobrescrito  
-
-`<sub>` sobrescrito 
-
 `<hgroup>` grupo de titulos (não sabia onde por &#128514; = `&#128514;`)
+
+## Tags de Cotação e Citação
+
+`<blockquote>` Desloca o paragrafo um pouco para frente 
+`<q>` Coloca entre aspas
+`<abbr>` Identifica abreviação, quando o mouse estiver encima traduz a abreviação
+`<cite>` o nome de uma obra de arte 
 
 # Caracteres Especiais
 
