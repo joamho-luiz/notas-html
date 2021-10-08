@@ -7,6 +7,7 @@
 `<del>` deleted (riscado - ênfase)  
 
 `<mark>` Marked - destacar com fundo amarelo.
+
 `<small>` Smaller - diminui a fonte
 
 `<ins>` - Inserted - sublinhado

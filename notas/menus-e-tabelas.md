@@ -19,6 +19,12 @@
 <a href="index.html">Home</a>
 ```
 
+* target - qual o alvo, _blank (outra aba).
+
+* title - titulo quando o mouse encima.
+
+* href="#id" - vai para o elemento que possui determinado id na própria página.
+
 # Tabelas
 
 `<tr>` table row  
