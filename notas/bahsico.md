@@ -80,3 +80,69 @@ Também há a \<div>
 ### Inline Elements
 
 As demais tags.
+
+<br/>
+
+# EMMET
+
+* `div>h1`
+```html
+<div>
+    <h1></h1>
+</div>
+```
+
+* `p*3`
+```html
+<p></p>
+<p></p>
+<p></p>
+```
+
+* `h1+h2`
+```html
+<h1></h1>
+<h2></h2>
+```
+
+* `()`  
+~ agrupar elementos e famílias.
+
+* `p#identificador` ~ div por padrão
+```html
+<p id="identificador"></p>
+```
+
+* `h1.classe.outra-classe`
+```html
+<h1 class="classe outra-classe"></h1>
+```
+
+* `lorem`
+```html
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non optio veritatis earum rerum vero magni voluptatem ad laborum voluptatum eveniet delectus dicta cum perferendis voluptatibus consequatur nihil, recusandae aut suscipit?
+```
+
+* `a[href="#"]`
+```html
+<a href="#"></a>
+```
+
+* `li.item$*3`
+```html
+<li class="item1"></li>
+<li class="item2"></li>
+<li class="item3"></li>
+```
+
+* `li.item$@4*3`
+```html
+<li class="item4"></li>
+<li class="item5"></li>
+<li class="item6"></li>
+```
+
+* `p{meu texto}`
+```html
+<p>meu texto</p>
+```
