@@ -32,6 +32,12 @@
 
 `<hgroup>` grupo de titulos (não sabia onde por &#128514; = `&#128514;`)
 
+<br/>
+
+```html
+<kbd>Ctrl + S</kbd>
+```
+
 ## Tags de Cotação e Citação
 
 `<blockquote>` Desloca o paragrafo um pouco para frente 
