@@ -52,6 +52,13 @@ Links em nova aba:
 Frame (html dentro do html):  
 ```html
 <iframe src="google-glass.html" scrolling="no"></iframe>
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+```
+
+Um link que aparece em um iframe.
+```html
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 ```
 
 ## Observação
