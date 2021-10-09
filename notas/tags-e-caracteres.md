@@ -39,6 +39,19 @@
 `<abbr>` Identifica abreviação, quando o mouse estiver encima traduz a abreviação
 `<cite>` o nome de uma obra de arte 
 
+## Meta
+
+```html
+<meta charset="UTF-8"> 
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="John Doe">
+<!-- Para que o site pareça decente ao iniciar -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Recarregar a cada 30s -->
+<meta http-equiv="refresh" content="30">
+```
+
 # Caracteres Especiais
 
 `&ne`	    **≠**  
