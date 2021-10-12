@@ -146,3 +146,8 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non optio veritatis ea
 ```html
 <p>meu texto</p>
 ```
+
+# Deslocados
+
+## Esconder do leitor de tela
+<span class="icon icon-key" aria-hidden="true"></span>
